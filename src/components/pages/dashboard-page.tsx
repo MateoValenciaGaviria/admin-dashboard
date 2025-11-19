@@ -10,8 +10,8 @@ import {
   TableHeader,
   TableRow,
   Tooltip,
-  User,
 } from '../table';
+import { User } from '../user';
 import { DeleteIcon, EditIcon, EyeIcon } from '@/src/icons';
 import { Status, UserProps } from '@/src/types';
 import { users } from '@/src/data/users';
@@ -108,43 +108,39 @@ export const DashboardPage = () => {
   }, []);
 
   return (
-    <div className='px-8 py-15'>
-      <Table
-        isCompact
-        aria-label='Example table with custom cells'
-        bottomContent={
-          <div className='flex w-full justify-center'>
-            <Pagination
-              isCompact
-              showControls
-              showShadow
-              color='default'
-              page={page}
-              total={pages}
-              onChange={(page) => setPage(page)}
-            />
-          </div>
-        }
-      >
-        <TableHeader columns={columns}>
-          {(column) => (
-            <TableColumn key={column.uid} align='start'>
-              {column.name}
-            </TableColumn>
-          )}
-        </TableHeader>
-        <TableBody items={items}>
-          {(item: UserProps) => (
-            <TableRow key={item.id}>
-              {(columnKey) => (
-                <TableCell>
-                  {renderCell(item, columnKey as ColumnKey)}
-                </TableCell>
-              )}
-            </TableRow>
-          )}
-        </TableBody>
-      </Table>
-    </div>
+    <Table
+      isCompact
+      aria-label='Example table with custom cells'
+      bottomContent={
+        <div className='flex w-full justify-center'>
+          <Pagination
+            isCompact
+            showControls
+            showShadow
+            color='default'
+            page={page}
+            total={pages}
+            onChange={(page) => setPage(page)}
+          />
+        </div>
+      }
+    >
+      <TableHeader columns={columns}>
+        {(column) => (
+          <TableColumn key={column.uid} align='start'>
+            {column.name}
+          </TableColumn>
+        )}
+      </TableHeader>
+      <TableBody items={items}>
+        {(item: UserProps) => (
+          <TableRow key={item.id}>
+            {(columnKey) => (
+              <TableCell>{renderCell(item, columnKey as ColumnKey)}</TableCell>
+            )}
+          </TableRow>
+        )}
+      </TableBody>
+    </Table>
   );
 };
