@@ -1,8 +1,8 @@
 'use client';
 
-import { Input } from '../input/input';
-import { Card, CardBody, CardHeader } from '../card/card';
-import { Button } from '../button/button';
+import { Input } from '../input';
+import { Card, CardBody, CardHeader } from '../card';
+import { Button } from '../button';
 
 export const LoginPage = () => {
   return (
