@@ -5,4 +5,4 @@ export {
   DropdownItem,
   Avatar,
   User,
-} from '@heroui/react';
+} from './dropdown';
