@@ -10,6 +10,7 @@ export const users: UserProps[] = [
     age: '29',
     avatar: 'https://avatar.iran.liara.run/public/1',
     email: 'tony.reichert@example.com',
+    password: 'Tony123',
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const users: UserProps[] = [
     age: '35',
     avatar: 'https://avatar.iran.liara.run/public/2',
     email: 'sarah.connor@example.com',
+    password: 'Sarah123',
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const users: UserProps[] = [
     age: '42',
     avatar: 'https://avatar.iran.liara.run/public/3',
     email: 'michael.scott@example.com',
+    password: 'Michael123',
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ export const users: UserProps[] = [
     age: '30',
     avatar: 'https://avatar.iran.liara.run/public/4',
     email: 'pam.beesly@example.com',
+    password: 'Pam123',
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ export const users: UserProps[] = [
     age: '33',
     avatar: 'https://avatar.iran.liara.run/public/5',
     email: 'jim.halpert@example.com',
+    password: 'Jim123',
   },
   {
     id: 6,
@@ -60,6 +65,7 @@ export const users: UserProps[] = [
     age: '38',
     avatar: 'https://avatar.iran.liara.run/public/6',
     email: 'dwight.schrute@example.com',
+    password: 'Dwight123',
   },
   {
     id: 7,
@@ -70,6 +76,7 @@ export const users: UserProps[] = [
     age: '36',
     avatar: 'https://avatar.iran.liara.run/public/7',
     email: 'angela.martin@example.com',
+    password: 'Angela123',
   },
   {
     id: 8,
@@ -80,6 +87,7 @@ export const users: UserProps[] = [
     age: '39',
     avatar: 'https://avatar.iran.liara.run/public/8',
     email: 'oscar.martinez@example.com',
+    password: 'Oscar123',
   },
   {
     id: 9,
@@ -90,6 +98,7 @@ export const users: UserProps[] = [
     age: '31',
     avatar: 'https://avatar.iran.liara.run/public/9',
     email: 'kelly.kapoor@example.com',
+    password: 'Kelly123',
   },
   {
     id: 10,
@@ -100,6 +109,7 @@ export const users: UserProps[] = [
     age: '26',
     avatar: 'https://avatar.iran.liara.run/public/10',
     email: 'ryan.howard@example.com',
+    password: 'Ryan123',
   },
   {
     id: 11,
@@ -110,6 +120,7 @@ export const users: UserProps[] = [
     age: '50',
     avatar: 'https://avatar.iran.liara.run/public/11',
     email: 'stanley.hudson@example.com',
+    password: 'Stanley123',
   },
   {
     id: 12,
@@ -120,6 +131,7 @@ export const users: UserProps[] = [
     age: '48',
     avatar: 'https://avatar.iran.liara.run/public/12',
     email: 'phyllis.vance@example.com',
+    password: 'Phyllis123',
   },
   {
     id: 13,
@@ -130,6 +142,7 @@ export const users: UserProps[] = [
     age: '45',
     avatar: 'https://avatar.iran.liara.run/public/13',
     email: 'meredith.palmer@example.com',
+    password: 'Meredith123',
   },
   {
     id: 14,
@@ -140,6 +153,7 @@ export const users: UserProps[] = [
     age: '55',
     avatar: 'https://avatar.iran.liara.run/public/14',
     email: 'creed.bratton@example.com',
+    password: 'Creed123',
   },
   {
     id: 15,
@@ -150,6 +164,7 @@ export const users: UserProps[] = [
     age: '41',
     avatar: 'https://avatar.iran.liara.run/public/15',
     email: 'toby.flenderson@example.com',
+    password: 'Toby123',
   },
   {
     id: 16,
@@ -160,6 +175,7 @@ export const users: UserProps[] = [
     age: '40',
     avatar: 'https://avatar.iran.liara.run/public/16',
     email: 'jan.levinson@example.com',
+    password: 'Jan123',
   },
   {
     id: 17,
@@ -170,6 +186,7 @@ export const users: UserProps[] = [
     age: '47',
     avatar: 'https://avatar.iran.liara.run/public/17',
     email: 'david.wallace@example.com',
+    password: 'David123',
   },
   {
     id: 18,
@@ -180,6 +197,7 @@ export const users: UserProps[] = [
     age: '34',
     avatar: 'https://avatar.iran.liara.run/public/18',
     email: 'holly.flax@example.com',
+    password: 'Holly123',
   },
   {
     id: 19,
@@ -190,6 +208,7 @@ export const users: UserProps[] = [
     age: '43',
     avatar: 'https://avatar.iran.liara.run/public/19',
     email: 'charles.miner@example.com',
+    password: 'Charles123',
   },
   {
     id: 20,
@@ -200,6 +219,7 @@ export const users: UserProps[] = [
     age: '32',
     avatar: 'https://avatar.iran.liara.run/public/20',
     email: 'gabe.lewis@example.com',
+    password: 'Gabe123',
   },
   {
     id: 21,
@@ -210,6 +230,7 @@ export const users: UserProps[] = [
     age: '34',
     avatar: 'https://avatar.iran.liara.run/public/21',
     email: 'nina.patel@example.com',
+    password: 'Nina123',
   },
   {
     id: 22,
@@ -220,6 +241,7 @@ export const users: UserProps[] = [
     age: '28',
     avatar: 'https://avatar.iran.liara.run/public/22',
     email: 'liam.chen@example.com',
+    password: 'Liam123',
   },
   {
     id: 23,
@@ -230,6 +252,7 @@ export const users: UserProps[] = [
     age: '30',
     avatar: 'https://avatar.iran.liara.run/public/23',
     email: 'isabella.rossi@example.com',
+    password: 'Isabella123',
   },
   {
     id: 24,
@@ -240,6 +263,7 @@ export const users: UserProps[] = [
     age: '32',
     avatar: 'https://avatar.iran.liara.run/public/24',
     email: 'carlos.mendez@example.com',
+    password: 'Carlos123',
   },
   {
     id: 25,
@@ -250,6 +274,7 @@ export const users: UserProps[] = [
     age: '29',
     avatar: 'https://avatar.iran.liara.run/public/25',
     email: 'emily.nguyen@example.com',
+    password: 'Emily123',
   },
   {
     id: 26,
@@ -260,6 +285,7 @@ export const users: UserProps[] = [
     age: '36',
     avatar: 'https://avatar.iran.liara.run/public/26',
     email: 'jorge.silva@example.com',
+    password: 'Jorge123',
   },
   {
     id: 27,
@@ -270,6 +296,7 @@ export const users: UserProps[] = [
     age: '31',
     avatar: 'https://avatar.iran.liara.run/public/27',
     email: 'ava.thompson@example.com',
+    password: 'Ava123',
   },
   {
     id: 28,
@@ -280,6 +307,7 @@ export const users: UserProps[] = [
     age: '33',
     avatar: 'https://avatar.iran.liara.run/public/28',
     email: 'noah.kim@example.com',
+    password: 'Noah123',
   },
   {
     id: 29,
@@ -290,6 +318,7 @@ export const users: UserProps[] = [
     age: '27',
     avatar: 'https://avatar.iran.liara.run/public/29',
     email: 'sofia.garcia@example.com',
+    password: 'Sofia123',
   },
   {
     id: 30,
@@ -300,6 +329,7 @@ export const users: UserProps[] = [
     age: '35',
     avatar: 'https://avatar.iran.liara.run/public/30',
     email: 'ethan.brown@example.com',
+    password: 'Ethan123',
   },
   {
     id: 31,
@@ -310,6 +340,7 @@ export const users: UserProps[] = [
     age: '38',
     avatar: 'https://avatar.iran.liara.run/public/31',
     email: 'lucia.torres@example.com',
+    password: 'Lucia123',
   },
   {
     id: 32,
@@ -320,6 +351,7 @@ export const users: UserProps[] = [
     age: '30',
     avatar: 'https://avatar.iran.liara.run/public/32',
     email: 'benjamin.lee@example.com',
+    password: 'Benjamin123',
   },
   {
     id: 33,
@@ -330,6 +362,7 @@ export const users: UserProps[] = [
     age: '26',
     avatar: 'https://avatar.iran.liara.run/public/33',
     email: 'chloe.martin@example.com',
+    password: 'Chloe123',
   },
   {
     id: 34,
@@ -340,6 +373,7 @@ export const users: UserProps[] = [
     age: '29',
     avatar: 'https://avatar.iran.liara.run/public/34',
     email: 'mateo.rios@example.com',
+    password: 'Mateo123',
   },
   {
     id: 35,
@@ -350,6 +384,7 @@ export const users: UserProps[] = [
     age: '40',
     avatar: 'https://avatar.iran.liara.run/public/35',
     email: 'grace.liu@example.com',
+    password: 'Grace123',
   },
   {
     id: 36,
@@ -360,6 +395,7 @@ export const users: UserProps[] = [
     age: '37',
     avatar: 'https://avatar.iran.liara.run/public/36',
     email: 'daniel.romero@example.com',
+    password: 'Daniel123',
   },
   {
     id: 37,
@@ -370,6 +406,7 @@ export const users: UserProps[] = [
     age: '32',
     avatar: 'https://avatar.iran.liara.run/public/37',
     email: 'victoria.adams@example.com',
+    password: 'Victoria123',
   },
   {
     id: 38,
@@ -380,6 +417,7 @@ export const users: UserProps[] = [
     age: '34',
     avatar: 'https://avatar.iran.liara.run/public/38',
     email: 'samuel.park@example.com',
+    password: 'Samuel123',
   },
   {
     id: 39,
@@ -390,6 +428,7 @@ export const users: UserProps[] = [
     age: '30',
     avatar: 'https://avatar.iran.liara.run/public/39',
     email: 'elena.cruz@example.com',
+    password: 'Elena123',
   },
   {
     id: 40,
@@ -400,6 +439,7 @@ export const users: UserProps[] = [
     age: '28',
     avatar: 'https://avatar.iran.liara.run/public/40',
     email: 'logan.white@example.com',
+    password: 'Logan123',
   },
   {
     id: 41,
@@ -410,6 +450,7 @@ export const users: UserProps[] = [
     age: '33',
     avatar: 'https://avatar.iran.liara.run/public/41',
     email: 'camila.herrera@example.com',
+    password: 'Camila123',
   },
   {
     id: 42,
@@ -420,6 +461,7 @@ export const users: UserProps[] = [
     age: '36',
     avatar: 'https://avatar.iran.liara.run/public/42',
     email: 'jackson.reed@example.com',
+    password: 'Jackson123',
   },
   {
     id: 43,
@@ -430,6 +472,7 @@ export const users: UserProps[] = [
     age: '29',
     avatar: 'https://avatar.iran.liara.run/public/43',
     email: 'natalie.brooks@example.com',
+    password: 'Natalie123',
   },
   {
     id: 44,
@@ -440,6 +483,7 @@ export const users: UserProps[] = [
     age: '39',
     avatar: 'https://avatar.iran.liara.run/public/44',
     email: 'diego.fernandez@example.com',
+    password: 'Diego123',
   },
   {
     id: 45,
@@ -450,6 +494,7 @@ export const users: UserProps[] = [
     age: '35',
     avatar: 'https://avatar.iran.liara.run/public/45',
     email: 'maya.singh@example.com',
+    password: 'Maya123',
   },
   {
     id: 46,
@@ -460,6 +505,7 @@ export const users: UserProps[] = [
     age: '31',
     avatar: 'https://avatar.iran.liara.run/public/46',
     email: 'lucas.moreno@example.com',
+    password: 'Lucas123',
   },
   {
     id: 47,
@@ -470,6 +516,7 @@ export const users: UserProps[] = [
     age: '30',
     avatar: 'https://avatar.iran.liara.run/public/47',
     email: 'zoe.bennett@example.com',
+    password: 'Zoe123',
   },
   {
     id: 48,
@@ -480,6 +527,7 @@ export const users: UserProps[] = [
     age: '37',
     avatar: 'https://avatar.iran.liara.run/public/48',
     email: 'omar.castillo@example.com',
+    password: 'Omar123',
   },
   {
     id: 49,
@@ -490,15 +538,17 @@ export const users: UserProps[] = [
     age: '33',
     avatar: 'https://avatar.iran.liara.run/public/49',
     email: 'leila.foster@example.com',
+    password: 'Leila123',
   },
   {
     id: 50,
-    name: 'Ava Thompson',
-    role: 'Content Strategist',
-    team: 'Marketing',
-    status: 'vacation',
+    name: 'Mateo Valencia',
+    role: 'CEO',
+    team: 'Development',
+    status: 'active',
     age: '31',
     avatar: 'https://avatar.iran.liara.run/public/50',
-    email: 'ava.thompson@example.com',
+    email: 'mateo.valencia@example.com',
+    password: 'Mateo123',
   },
 ];

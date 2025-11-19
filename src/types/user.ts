@@ -9,4 +9,5 @@ export interface UserProps {
   age: string;
   avatar: string;
   email: string;
+  password: string;
 }
