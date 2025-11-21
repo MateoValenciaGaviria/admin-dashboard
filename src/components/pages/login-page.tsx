@@ -4,8 +4,13 @@ import { Input } from '../input';
 import { Card, CardBody, CardHeader } from '../card';
 import { Button } from '../button';
 import { SubmitHandler, useForm } from 'react-hook-form';
+import { useAuth } from '@/src/hooks';
+import { users } from '@/src/data/users';
+import { redirect } from 'next/navigation';
 
 export const LoginPage = () => {
+  const { login } = useAuth();
+
   type Inputs = {
     email: string;
     password: string;
@@ -18,7 +23,12 @@ export const LoginPage = () => {
   } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log(data);
+    const user = users.find((user) => data.email === user.email);
+    const validatedUser = user?.password === data.password;
+    if (validatedUser) {
+      login(user);
+      redirect('/dashboard');
+    }
   };
 
   return (
