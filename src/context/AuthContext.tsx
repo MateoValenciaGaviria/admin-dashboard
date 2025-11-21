@@ -1,7 +1,8 @@
 'use client';
 
-import { createContext, ReactNode, useState } from 'react';
+import { createContext, ReactNode } from 'react';
 import { UserProps } from '../types';
+import { useAuth } from '../hooks';
 
 type AuthContextType = {
   user: UserProps | null;
@@ -14,13 +15,7 @@ export const AuthContext = createContext<AuthContextType | undefined>(
 );
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
-  const [user, setUser] = useState<UserProps | null>(null);
-  const login = (user: UserProps) => setUser(user);
-  const logout = () => setUser(null);
+  const auth = useAuth();
 
-  return (
-    <AuthContext.Provider value={{ user, login, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={auth}>{children}</AuthContext.Provider>;
 };

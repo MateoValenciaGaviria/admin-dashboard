@@ -6,15 +6,16 @@ import { Button } from '../button';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { useAuth } from '@/src/hooks';
 import { users } from '@/src/data/users';
-import { redirect } from 'next/navigation';
+import { useRouter } from 'next/navigation';
+
+type Inputs = {
+  email: string;
+  password: string;
+};
 
 export const LoginPage = () => {
+  const router = useRouter();
   const { login } = useAuth();
-
-  type Inputs = {
-    email: string;
-    password: string;
-  };
 
   const {
     register,
@@ -27,7 +28,7 @@ export const LoginPage = () => {
     const validatedUser = user?.password === data.password;
     if (validatedUser) {
       login(user);
-      redirect('/dashboard');
+      router.push('/dashboard');
     }
   };
 

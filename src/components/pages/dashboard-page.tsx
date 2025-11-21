@@ -16,9 +16,12 @@ import { DeleteIcon, EditIcon, EyeIcon } from '@/src/icons';
 import { Status, UserProps } from '@/src/types';
 import { users } from '@/src/data/users';
 import { Pagination } from '../pagination';
+import { useRouter } from 'next/navigation';
+
+type ColumnKey = 'name' | 'role' | 'status' | 'actions';
 
 export const DashboardPage = () => {
-  type ColumnKey = 'name' | 'role' | 'status' | 'actions';
+  const router = useRouter();
 
   const columns: { name: string; uid: ColumnKey }[] = [
     { name: 'NAME', uid: 'name' },
@@ -86,7 +89,10 @@ export const DashboardPage = () => {
         return (
           <div className='relative flex items-center gap-2'>
             <Tooltip content='Details'>
-              <span className='text-lg text-default-400 cursor-pointer active:opacity-50'>
+              <span
+                className='text-lg text-default-400 cursor-pointer active:opacity-50'
+                onClick={() => router.push(`/users/${user.id}`)}
+              >
                 <EyeIcon />
               </span>
             </Tooltip>
